@@ -22,9 +22,9 @@ footer {
     margin-bottom: 0;
 }
 
-#index .card-body img {
-    width: 200px;
-    height: 200px;
+#comp_card {
+    max-width: 100rem;
+    min-height: 45rem;
 }
 
 #comp .card-body img {
@@ -32,9 +32,10 @@ footer {
     height: 300px;
 }
 
-#comp_card {
-    max-width: 100rem;
-    min-height: 45rem;
+
+#index .card-body img {
+    width: 200px;
+    height: 200px;
 }
 
 #left_card {
@@ -47,6 +48,20 @@ footer {
     min-height: 35rem;
 }
 
+#viz_left_card {
+    max-width: 52rem;
+}
+
+#viz_right_card {
+    max-width: 52rem;
+}
+
+#viz_right_card .card-body img {
+    width: 200px;
+    height: 200px;
+}
+
 #wrapper {
     margin: 0 auto 50px;
 }
+
