@@ -113,4 +113,4 @@ Small screen:
 <hr>
 
 # Solution
-<a href="https://buitron.github.io/web_visualization/index.html" target="_blank"><h1>WeatherPy Analysis Web Page</h1></a>
+<a href="https://buitron.github.io/web_visualization/index.html" target="_blank"><h2>WeatherPy Analysis Web Page</h2></a>
