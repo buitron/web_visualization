@@ -16,10 +16,29 @@ footer {
     text-align: center;
 }
 
+pre {
+    background: black;
+    color: white;
+}
+
+pre[data-lang]::before {
+    content: attr(data-lang);
+    display: block;
+    background: #808B96;
+}
+
 .card-title {
     text-align: center;
     padding-top: 6px;
     margin-bottom: 0;
+}
+
+.dropdown-menu {
+    position: absolute;
+    transform: translate3d(0px, 40px, 0px);
+    top: 0px;
+    left: 0px;
+    will-change: transform;
 }
 
 #comp_card {
@@ -32,20 +51,13 @@ footer {
     height: 300px;
 }
 
-
 #index .card-body img {
     width: 200px;
     height: 200px;
 }
 
-#left_card {
-    max-width: 60rem;
-    min-height: 35rem;
-}
-
-#right_card {
-    max-width: 40rem;
-    min-height: 35rem;
+#index #left_card img {
+    float: left;
 }
 
 #viz_left_card {
@@ -64,4 +76,3 @@ footer {
 #wrapper {
     margin: 0 auto 50px;
 }
-
